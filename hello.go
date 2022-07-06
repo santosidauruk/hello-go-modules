@@ -1,5 +1,5 @@
 package hello
 
-func SayHello() string {
-	return "Hello from module"
+func SayHello(name string) string {
+	return "Hello from module, " + name
 }
